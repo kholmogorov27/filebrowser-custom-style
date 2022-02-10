@@ -1,0 +1,49 @@
+/* --- */
+nav, header > img, #dropdown {
+  display: none;
+}
+/* --- */
+
+/* --- */
+#search {
+  max-width: unset;
+}
+.material-icons {
+  font-size: 2rem;
+}
+/* --- */
+
+/* --- */
+main {
+  width: 100% !important;
+  padding: 0 10px !important;
+}
+#listing > h2 {
+  display: none;
+}
+#listing > div:nth-child(2), #listing > div:nth-child(3) {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(max(200px, 100%/3), 1fr)) !important;
+}
+/* --- */
+
+/* --- */
+#listing .item {
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  border: 3px solid rgb(0 0 0 / 18%);
+  box-shadow: none !important;
+}
+
+#listing .item p.modified, #listing .item p.size {
+  display: none !important;
+}
+#listing .item > div:first-child {
+  display: none;
+}
+#listing .item .name {
+  text-align: center;
+  font-size: 4em;
+}
+/* --- */
